@@ -1,0 +1,20 @@
+introduction, imaginary log:
+ 
+User: open site 
+site: check cookie "n"
+// has cookie "n" = redirect to main.html
+// has not cookie "n" = redirect to hi.html
+
+User has not cookie "n", redirect to hi.html
+User looked at the greeting or presentation and clicked on the "I'm sure" button
+
+button: redirect to set-cookie.php
+set-cookie.php: add cookie "n" to user and redirect to main.html
+
+//the next time the user opens the site, he will immediately go to the page main.html
+
+What is it for?
+
+You can show the presentation and greeting once for the user. The next time the welcome page will not be opened, because the user has already seen it
+
+You can use the file .htaccess, which is specified in the project, or use index.php with redirection to the script CRM.php

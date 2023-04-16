@@ -1,0 +1,4 @@
+DirectoryIndex scr/crm-check.php
+#Main directory is script crm 
+#Not necessarily, you can also use index.php to redirect to the script crm-check.php
+
